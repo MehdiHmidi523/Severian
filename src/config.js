@@ -6,4 +6,3 @@ module.exports = {
       session: 'dizl9odemBiMo5wou9alb',
     },
   }
-  //write a title for a software company presenting the value offered
