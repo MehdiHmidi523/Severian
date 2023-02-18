@@ -60,3 +60,31 @@ app.use((err, req, res, next) => {
 // Start server
 const PORT = config.server.port
 app.listen(PORT, () => console.info(`Server running on: ${PORT}`))
+
+//const express = require('express')
+//const path = require('path')
+//const bodyParser = require('body-parser')
+//const app = express()
+//const helmet = require('helmet')
+
+// Server helper libraries
+//app.set('views', path.join(__dirname, 'views'))
+//app.set('view engine', 'pug')
+//app.use(bodyParser.urlencoded({ extended: true }))
+//app.use(bodyParser.json())
+//app.use(express.static(path.join(__dirname, 'public')))
+//app.use(expressSession({ secret: 'dizl9odemBiMo5wou9alb', saveUninitialized: true, resave: true }))
+//app.use(helmet())
+//app.disable('x-powered-by')
+// Server routes
+//app.use('/', require('./routes/businessFront'))
+
+// Handler for 404 - Resource not found
+//app.use((req, res, next) => { res.status(404).send('-- We think you are lost --') })
+//app.use((err, req, res, next) => { res.status(500).send('-- Server Errors System Offline --') })
+//app.use((req, res, next) => { console.log(`${new Date().toString()} => ${req.originalUrl}`); next() })
+
+// Start Server
+//const PORT = 3000
+//app.listen(PORT, () => console.info(`Server running on: ${PORT}`))
+

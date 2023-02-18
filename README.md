@@ -1,2 +1,1 @@
-# Chaos Branch Manager state tracker
-![Owner Company](LAYMAN.png)
+# Value proposition is up to you

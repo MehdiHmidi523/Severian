@@ -8,7 +8,7 @@ body{
   --body-100-line: 1.4286;
   --body-400-size: 1.9rem;
   --body-400-line: 1.1765;
-  --headline-300-size: 4.2rem;
+  --headline-300-size: 5.3rem;
   --headline-300-line: 1.15;
   --headline-300-letter: -0.02em;
   --v-gutter: 1.66667rem;
@@ -92,8 +92,8 @@ body{
 
 .text-content{
   position: absolute;
-  transform: translate(-10%, 16%);
-  width: 700px;
+  transform: translate(-10%, 26%);
+  width: 730px;
 }
 
 .text-content h1 {
